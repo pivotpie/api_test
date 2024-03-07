@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-06 15:53:31.738775",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "map",
+  "column_break_mrco",
+  "name1",
+  "road",
+  "suburb",
+  "town",
+  "state",
+  "country",
+  "display_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_mrco",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "road",
+   "fieldtype": "Data",
+   "label": "Street"
+  },
+  {
+   "fieldname": "suburb",
+   "fieldtype": "Data",
+   "label": "Area"
+  },
+  {
+   "fieldname": "town",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State / Emirate"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "display_name",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "map",
+   "fieldtype": "Geolocation",
+   "label": "Select Location"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-07 12:52:01.866941",
+ "modified_by": "Administrator",
+ "module": "API Test",
+ "name": "Map",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
